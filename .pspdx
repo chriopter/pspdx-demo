@@ -1,0 +1,9 @@
+{
+  "schema":     "https://github.com/chriopter/pspdx/blob/master/schema/v1.pspdx",
+  "name":       "PSPDX Demo",
+  "author":     "chriopter",
+  "summary":    "Hello, PSP. A demo listing for PSPDX.",
+  "category":   "demo",
+  "license":    "MIT",
+  "installdir": "PSP/GAME/PSPDXDemo"
+}
