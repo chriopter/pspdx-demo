@@ -28,3 +28,11 @@ The installer copies the directory in the zip that holds the `EBOOT.PBP`,
 with everything beside and below it, into `installdir`. Here that is the
 same folder a person dragging the zip onto the stick by hand would get.
 
+## Releases
+
+Pushing a tag starting with `v` (for example, `v1.0.0`) builds the demo,
+packages it as a ZIP and publishes a GitHub release automatically.
+
+For your own app, use whatever build process you prefer. PSPDX needs
+a `.pspdx` in the repository root and a published release with exactly
+one ZIP containing exactly one `EBOOT.PBP`.
