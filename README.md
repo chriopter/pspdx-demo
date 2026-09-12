@@ -15,7 +15,7 @@ The rest comes from the release (latest update).
 ```jsonc
 {
   "schema":     "https://github.com/chriopter/pspdx/blob/master/schema/v1.pspdx",
-  "repo":       "https://github.com/chriopter/pspdx-demo", // Required.
+  "source":       "https://github.com/chriopter/pspdx-demo", // Required.
   "name":       "PSPDX Demo",   // Under 40 characters. Required.
   "author":     "chriopter",    // Optional, if not set repo owner
   "summary":    "Hello, PSP. A demo listing for PSPDX.",  // Optional, 60 chars
