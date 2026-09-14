@@ -2,7 +2,7 @@
  *
  * A hello world for the PSP, done the way a listed app is done: this file,
  * a Makefile that packs the four media files into the EBOOT, a .pspdx in
- * the root with every line the format has, and a release with the zip.
+ * the root, and a release with the zip.
  * The program itself prints a few lines and waits for the pad. */
 
 #include <pspkernel.h>
