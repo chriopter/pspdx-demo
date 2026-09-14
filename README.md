@@ -11,7 +11,7 @@ or install it through PSPDX.
 
 ```json
 {
-  "schema":     "https://github.com/chriopter/pspdx/blob/master/schema/v1.pspdx",
+  "schema":     "https://chriopter.github.io/pspdx/schema/pspdx-v1.json",
   "source":     "https://github.com/chriopter/pspdx-demo",
   "name":       "PSPDX Demo",
   "author":     "chriopter",
