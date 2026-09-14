@@ -22,6 +22,9 @@ or install it through PSPDX.
 }
 ```
 
+Its first line names the rules it keeps:
+[`pspdx-v1.json`](https://chriopter.github.io/pspdx/schema/pspdx-v1.json).
+
 **2. Publish a GitHub release** with one ZIP holding one `EBOOT.PBP`.
 
 Done! No `.pspdx` edit per release.
