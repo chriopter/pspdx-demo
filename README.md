@@ -24,7 +24,7 @@ or install it through PSPDX.
 ```
 
 Its first line names the rules it keeps:
-[`pspdx-v1.json`](https://chriopter.github.io/pspdx/schema/pspdx-v1.json).
+[pspdx-v1](https://chriopter.github.io/pspdx/#pspdx-v1).
 
 - Only `schema`, `source` and `name` are required.
 - `tags` → up to eight words; `game`, `emulator`, `app` and `demo` get a tab.
@@ -37,7 +37,7 @@ Done! No `.pspdx` edit per release.
 
 - PSPDX installs the folder holding the EBOOT, with all its files.
 - Icon, picture, video and sound in the EBOOT are optional.
-- [All fields and rules](https://github.com/chriopter/pspdx#the-pspdx-standard)
+- [All fields and rules](https://chriopter.github.io/pspdx/)
 
 ## What's in here
 
