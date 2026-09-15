@@ -1,19 +1,15 @@
 # PSPDX Demo
 
-A tiny PSP hello-world that shows how to publish homebrew for
-[PSPDX](https://github.com/chriopter/pspdx).
+A tiny PSP hello-world implementing the
+[pspdx-v1 schema](https://chriopter.github.io/pspdx/#pspdx-v1) of the
+[PSPDX standard](https://chriopter.github.io/pspdx/).
 [See it in the catalog](https://chriopter.github.io/pspdx-catalog/apps/io.github.chriopter.pspdxdemo/)
-or install it through PSPDX.
+or install it through [PSPDX](https://github.com/chriopter/pspdx).
 
 ## Make your app available
 
-**1. Add a `.pspdx` to your repo root**, like [this repo's](.pspdx).
-Only `schema`, `source` and `name` are required; every field is on the
-[PSPDX standard](https://chriopter.github.io/pspdx/) page.
-
-**2. Publish a GitHub release** with one ZIP holding one `EBOOT.PBP`.
-
-Done! No `.pspdx` edit per release.
+- **[`.pspdx`](.pspdx) in your repo root** → only `schema`, `source` and `name` are required
+- **GitHub release** with one ZIP holding one `EBOOT.PBP` → done, no `.pspdx` edit per release
 
 ## What's in here
 
