@@ -3,9 +3,9 @@
 # PPSSPP expect. Writes dist/pspdx-demo.zip and its sha256.
 set -e
 cd "$(dirname "$0")/.."
-[ -f EBOOT.PBP ] || { echo "build first: make" >&2; exit 1; }
+[ -f app/EBOOT.PBP ] || { echo "build first: make -C app" >&2; exit 1; }
 rm -rf dist && mkdir -p dist/PSP/GAME/PSPDXDemo
-cp EBOOT.PBP dist/PSP/GAME/PSPDXDemo/
+cp app/EBOOT.PBP dist/PSP/GAME/PSPDXDemo/
 cp LICENSE dist/PSP/GAME/PSPDXDemo/LICENSE.txt
 (cd dist && zip -q -r -X pspdx-demo.zip PSP)
 rm -rf dist/PSP

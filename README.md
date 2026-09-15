@@ -18,7 +18,7 @@ Done! No `.pspdx` edit per release.
 ## What's in here
 
 - **`.pspdx`** → the manifest
-- **`main.c`, `Makefile`** → the app; `media/xmb/` holds its EBOOT artwork
+- **`app/`** → the app: `main.c`, its `Makefile` and the EBOOT artwork in `media/xmb/`
 - **`tools/package.sh`** → zips the EBOOT as `PSP/GAME/PSPDXDemo/`
 - **`.github/workflows/psp.yml`** → tag `v*` → build in `pspdev/pspdev` → ZIP → GitHub release
 
