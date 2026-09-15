@@ -2,7 +2,7 @@
   "schema":      "https://chriopter.github.io/pspdx/schema/pspdx-v1.json",
   "source":      "https://github.com/chriopter/pspdx-demo",
   "name":        "PSPDX Demo",
-  "tags":        ["demo"],
+  "category":    "demo",
   "author":      "chriopter",
   "summary":     "Hello, PSP. A demo listing for PSPDX.",
   "description": "A hello world for the PSP, published the way a listed app is: a .pspdx in the repository, a release with the EBOOT.\nX says hello again, HOME leaves.",
