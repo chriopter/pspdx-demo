@@ -7,7 +7,7 @@ A tiny PSP hello-world implementing the
 [See it in the catalog](https://chriopter.github.io/pspdx-catalog/apps/io.github.chriopter.pspdxdemo/)
 or install it through [PSPDX](https://github.com/chriopter/pspdx).
 
-## Make your app available
+## Use .pspdx for your app
 
 - **[`.pspdx`](.pspdx) in your repo root** → only `schema`, `source` and `name` are required
 - **GitHub release** with one ZIP holding one `EBOOT.PBP` → done, no `.pspdx` edit per release
