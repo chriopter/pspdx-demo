@@ -14,8 +14,8 @@ or install it through [PSPDX](https://github.com/chriopter/pspdx).
 ## What's in here
 
 - **`.pspdx`** → the manifest
-- **`app/`** → the app: `main.c`, its `Makefile` and the EBOOT artwork in `media/xmb/`
-- **`tools/package.sh`** → zips the EBOOT as `PSP/GAME/PSPDXDemo/`
-- **`.github/workflows/psp.yml`** → tag `v*` → build in `pspdev/pspdev` → ZIP → GitHub release
+- **`app/`** → the app
+- **`tools/package.sh`** → packs the ZIP
+- **`.github/workflows/psp.yml`** → builds the GitHub release
 
 Any build process works for your own app.
