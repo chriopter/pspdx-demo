@@ -8,14 +8,11 @@ or install it through [PSPDX](https://github.com/chriopter/pspdx).
 
 ## Use .pspdx for your app
 
-- **[`.pspdx`](.pspdx) in your repo root** → only `schema`, `source` and `name` are required
-- **GitHub release** with one ZIP holding one `EBOOT.PBP` → done, no `.pspdx` edit per release
+- Add a [`.pspdx`](.pspdx) to your repo root → only `schema`, `source` and `name` are required
+- Publish a GitHub release with one ZIP holding one `EBOOT.PBP` → nothing to edit per release
 
 ## What's in here
 
-- **`.pspdx`** → the manifest
-- **`app/`** → the app
-- **`tools/package.sh`** → packs the ZIP
-- **`.github/workflows/psp.yml`** → builds the GitHub release
-
-Any build process works for your own app.
+- `app/` → the app
+- `tools/package.sh` → packs the ZIP
+- `.github/workflows/psp.yml` → builds the release
